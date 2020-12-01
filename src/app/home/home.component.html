@@ -1,0 +1,115 @@
+<h2 align="center" class="mt-2 mb-2"> Bootstrap 4 Carousel</h2>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="slider_img" src="assets/images/slider1.jpeg" >
+    </div>
+    <div class="carousel-item">
+      <img class="slider_img" src="assets/images/slider2.jpeg" >
+    </div>
+    <div class="carousel-item">
+      <img class="slider_img" src="assets/images/slider3.jpeg" >
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<div class="container">
+<div class="row mt-4">
+  <div class="col-3">
+    <div class="service_block">
+      <div class="service_img">
+        <img src="https://via.placeholder.com/50" alt="image">
+      </div>
+      <div class="service_name">
+        <h4>Service Name 1 </h4>
+      </div>
+      <div class="service_descrip">
+        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.       
+          </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-3">
+    <div class="service_block">
+      <div class="service_img">
+        <img src="https://via.placeholder.com/50" alt="image">
+      </div>
+      <div class="service_name">
+        <h4>Service Name 2 </h4>
+      </div>
+      <div class="service_descrip">
+        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.       
+          </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-3">
+    <div class="service_block">
+      <div class="service_img">
+        <img src="https://via.placeholder.com/50" alt="image">
+      </div>
+      <div class="service_name">
+        <h4>Service Name 3 </h4>
+      </div>
+      <div class="service_descrip">
+        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.       
+          </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row mt-4">
+  <div class="col-sm-6 pl-2">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25897.838256488187!2d10.749275837734658!3d35.76973153272216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13020d302f3567f5%3A0xcfa014ea10284387!2zSMO0dGVsIFNrYW5lcyBTw6lyYWls!5e0!3m2!1sfr!2stn!4v1606721440559!5m2!1sfr!2stn" width="450" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </div>
+  <div class="col-sm-6">
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 class="text-center">Contact Form</h4>
+      </div>
+      <div class="col-sm-12">
+        <form [formGroup] = "contactForm" (ngSubmit) = "saveContact(contactForm)">
+        <div class="form-group">
+          <label >Enter Name</label>
+          <input type="text" formControlName = "name" class="form-control">
+        </div>
+        <div class="form-group">
+          <label >Enter Email</label>
+          <input type="text" formControlName = "email" class="form-control">
+        </div>
+        <div class="form-group">
+          <label >Enter Number Phone</label>
+          <input type="text" formControlName = "phone" class="form-control">
+        </div>
+        <div class="form-group">
+          <label >Enter Message</label>
+          <textarea class="form-control"formControlName = "message"></textarea>
+        </div>
+        <div class="form-group">
+          <button class="btn btn-info">Send</button>
+        </div>
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
+</div>

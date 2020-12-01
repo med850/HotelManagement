@@ -1,0 +1,31 @@
+.page_container{
+ margin-top: -14px;
+ margin-bottom: 70px;   
+}
+
+.footer{
+    background: #343a40;
+    height: 250px;
+}
+.subscribe_box{
+    padding-left: 29px;
+    padding-top: 25px;
+}
+.footer_text{
+    color: white;
+}
+.contact_tab{
+    width: 50%;
+    height: 39px;
+    padding-left: 39px;
+}
+
+.social_icon{
+    width: 50px;
+    float: left;
+    color: white;
+    font-size: 29px;
+    padding: 46px;
+    margin-top: 58px;
+    
+}

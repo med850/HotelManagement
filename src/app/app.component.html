@@ -1,0 +1,60 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-3">
+    <div class="container">
+        <a class="navbar-brand" [routerLink] = "['/']">HABIB HOTEL</a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" [routerLink] = "['/']">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink] = "['about']">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink] = "['contact']">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink] = "['room-booking-request']">Room Booking</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink] = "['feedback']">Feedback</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink] = "['auth']">Login</a>
+            </li>
+        </ul>
+        </div>
+</nav>
+<div class="page_container">
+    <router-outlet></router-outlet>
+</div>
+<div class="footer">
+    <div class="row">
+    <div class="col-sm-4 subscribe_box" >
+        <p class="footer_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        <h4 class="footer_text">For letest update Subcribe Now</h4>
+        <input type="email" name="email" class="form-controll" placeholder="Email"/>
+    </div>
+    <div class="col-sm-4">
+        <h4 class="text-center mt-4 mb-4 footer_text">Contact Information</h4>
+        <table>
+            <tr>
+                <td class="contact_tab footer_text">Email</td>
+                <td class="contact_tab footer_text">test@exemple.com</td>
+            </tr>
+            <tr>
+                <td class="contact_tab footer_text">Mobile Num</td>
+                <td class="contact_tab footer_text">+216 99 999 999</td>
+            </tr>
+            <tr>
+                <td class="contact_tab footer_text">Address</td>
+                <td class="contact_tab footer_text">Monastir</td>
+            </tr>
+        </table>
+    </div>
+    <div class="col-sm-4">
+        <div class="social_icon"><i class="fa fa-facebook-official" aria-hidden="true"></i></div>
+        <div class="social_icon"><i class="fa fa-google-plus"></i></div>
+        <div class="social_icon"><i class="fa fa-twitter"></i></div>
+        <div class="social_icon"><i class="fa fa-instagram"></i></div>
+    </div>
+</div>
+</div>
