@@ -11,6 +11,8 @@ import { RoomBookingRequestComponent } from './room-booking-request/room-booking
 import { FeedbackComponent } from './feedback/feedback.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule} from '@angular/common/http';
+import { LogoutComponent } from './logout/logout.component';
+import { UserProfileComponent } from './user-profile/user-profile.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { HttpClientModule} from '@angular/common/http';
     ContactComponent,
     AuthComponent,
     RoomBookingRequestComponent,
-    FeedbackComponent
+    FeedbackComponent,
+    LogoutComponent,
+    UserProfileComponent
   ],
   imports: [
     BrowserModule,

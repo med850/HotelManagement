@@ -1,0 +1,15 @@
+.login_container{
+    margin-top: 86px;
+}
+
+.signup_block{
+    border-left: 1px solid black;
+}
+
+.reset_password{
+    cursor: pointer;
+}
+
+.login_inner{
+    margin-top: 80px;
+}
